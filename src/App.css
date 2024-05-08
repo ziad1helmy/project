@@ -1,0 +1,44 @@
+/* Styles for the root element */
+.App {
+  text-align: center;
+}
+
+/* Styles for the logo */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/* Animation styles for the logo */
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: spin 20s infinite linear; /* Applying animation */
+  }
+}
+
+/* Styles for the header */
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); /* Responsive font size */
+  color: white;
+}
+
+/* Styles for links */
+.App-link {
+  color: #61dafb;
+}
+
+/* Keyframes for logo spin animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg); /* Starting rotation */
+  }
+  to {
+    transform: rotate(360deg); /* Full rotation */
+  }
+}
